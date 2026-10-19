@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import FeaturedTestimonials from "./components/FeaturedTestimonials";
 import About from "./components/About";
 import PainTreatment from "./components/PainTreatment";
 import MusclePain from "./components/MusclePain";
@@ -13,6 +14,7 @@ function App(): JSX.Element {
     <div className="min-h-screen bg-white font-sans">
       <Navbar />
       <Hero />
+      <FeaturedTestimonials />
       <About />
       <PainTreatment />
       <MusclePain />

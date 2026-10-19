@@ -166,6 +166,7 @@ export const TESTIMONIALS: readonly Testimonial[] = [
       "כן ירבו רופאים כמותו.",
     ],
     signature: "משפחת ש.",
+    featured: true,
   },
   {
     paragraphs: [
@@ -174,10 +175,12 @@ export const TESTIMONIALS: readonly Testimonial[] = [
       "מאז אני חוזר וממליץ לכל מי ששואל, לפנות אל בקי, ויתכן שכבר כמה מהם פנו.",
     ],
     signature: "ד., 2015",
+    featured: true,
   },
   {
     paragraphs: ["בקי תודה מקרב לב על חוויה יוצאת דופן ממנה יצאתי מחוזק תרתי משמע."],
     signature: "א.",
+    featured: false,
   },
   {
     paragraphs: [
@@ -185,6 +188,7 @@ export const TESTIMONIALS: readonly Testimonial[] = [
       "בתודה והערכה רבה!",
     ],
     signature: "מ.",
+    featured: true,
   },
   {
     paragraphs: [
@@ -195,6 +199,7 @@ export const TESTIMONIALS: readonly Testimonial[] = [
       "שוב, תודה והערכה רבה.",
     ],
     signature: "ד״ר פ.",
+    featured: false,
   },
   {
     paragraphs: [
@@ -202,9 +207,15 @@ export const TESTIMONIALS: readonly Testimonial[] = [
       "מי ייתן ותזכה לשפע של ברכה והצלחה בכל מעשה ידיך, ותהא ידך משגת כל אשר חפץ ליבך.",
     ],
     signature: "ד.",
+    featured: false,
   },
   {
     paragraphs: ["אכן עזר מאוד, טיפול נפלא."],
     signature: "ש.",
+    featured: false,
   },
 ];
+
+export const FEATURED_TESTIMONIALS: readonly Testimonial[] = TESTIMONIALS.filter((testimonial) => testimonial.featured);
+
+export const MORE_TESTIMONIALS: readonly Testimonial[] = TESTIMONIALS.filter((testimonial) => !testimonial.featured);

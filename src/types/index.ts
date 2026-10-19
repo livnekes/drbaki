@@ -25,6 +25,7 @@ export type GalleryImage = {
 export type Testimonial = {
   paragraphs: readonly string[];
   signature: string;
+  featured: boolean;
 };
 
 export type ContactChannel = {
