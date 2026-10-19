@@ -3,7 +3,7 @@
 BUCKET_NAME="dr-baki-harash-site"
 REGION="us-east-1"
 LOCAL_DIR="./dist"
-AWS_PROFILE="default"
+AWS_PROFILE="livne"
 
 echo "=== Dr. Baki Harash Site - Deployment Script ==="
 echo "Deploying to S3 bucket: $BUCKET_NAME (profile: $AWS_PROFILE)"

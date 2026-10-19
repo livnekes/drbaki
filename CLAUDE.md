@@ -145,6 +145,7 @@ npm run preview
 
 ## Infrastructure Notes
 
+- AWS profile: `livne` (personal account 035533640023 — NOT `default`, which is the work account)
 - S3 bucket: `dr-baki-harash-site` (us-east-1)
 - CloudFront distribution: created on first `./deploy.sh` run, looked up afterwards by Comment `Dr Baki Harash Site`
 - Static hosting, no backend: the contact form composes a WhatsApp message (`wa.me`) instead of posting to a server
