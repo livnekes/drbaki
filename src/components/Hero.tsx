@@ -30,8 +30,8 @@ const Hero = (): JSX.Element => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
-          <div className="flex-1 text-center md:text-right">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 md:gap-16">
+          <div className="max-w-2xl text-center md:text-right">
             <motion.p {...heroEntrance()} className="text-brand-accent font-semibold tracking-wide mb-3">
               {CLINIC_KIND} · {CLINIC_LOCALITY}
             </motion.p>
